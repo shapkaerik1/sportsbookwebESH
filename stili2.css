@@ -1,0 +1,43 @@
+body{
+	background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("run.jpg") no-repeat;
+	background-size: cover;
+	font-family: Arial;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 20px;
+	text-align: center;
+}
+ul li{
+	float: left;
+	width: 443px;
+	height: 40px;
+	background-color: black;
+	line-height: 40px;
+}
+.special{
+	opacity: .9;
+}
+.special3{
+	opacity: .8;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+ul li a:hover {
+	background-color: darkgrey;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+h1{
+	color: darkred;
+	font-size: 40px;
+}
